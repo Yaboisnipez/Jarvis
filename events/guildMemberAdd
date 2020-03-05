@@ -1,0 +1,22 @@
+const Discord = require('discord.js')
+const db = require("quick.db")
+// description
+
+module.exports = async (client, message, args, level) => {
+//module.exports = member => 
+let welcomeMessage = await db.fetch(`welcome_${message.guild.id}`)
+let welcomeChannels = await db.fetch(`welcomeChannel_${message.guild.id}`)
+let welcomeEnabled = await db.fetch(`welcomeEnabled_${message.guild.id}`)
+  
+if (welcomeEnabled !== "true") return;
+let welcomer = client.channels.get(`${welcomeChannels}`);  
+
+ let welcome = new Discord.RichEmbed()
+ .setTitle(' 🎉 User Joined 🎉')
+ .setAuthor(message.guild.name, message.guild.iconURL)
+ .setDescription(`${welcomeMessage}`)
+ .setThumbnail(message.guild.iconURL)
+ .setColor("RANDOM")
+ .setFooter('Members' + ` ${message.guild.memberCount}`);
+ welcomer.send(welcome)
+}
