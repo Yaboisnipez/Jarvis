@@ -1,0 +1,14 @@
+{
+	"token": "NjUzOTQxMTE0NzUxMTU2MjM2.XmAeVw.4Yg243N9fW6WOEp5eLSyC6ShNlAmYio9PYvLSGgNjDcMwe7An4GrSSYpQF2",
+	"ownerID": "632020134289997824",
+	"webhook": "z8lVGBKmoy2jpovytOQ8cUU99tCh7YrHO8leK_nqfqk_uMbJo9gK4P41nwszwUdHCkfC",
+	"defaultPrefix": "-",
+	"clientSecret": "mYio9PYvLSGgNjDcMwe7An4GrSSYpQF2",
+	"websiteURL": "https://firefoxbot1.glitch.me",
+
+	"red": "0xffb3ba",
+	"orange": "0xffdfba",
+	"yellow": "0xfffba",
+	"green": "0xbaffc9",
+	"blue": "0xbae1ff"
+}

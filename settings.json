@@ -1,0 +1,15 @@
+{
+  "prefix": "-",
+  "domain": "firefoxbot1.glitch.me",
+  "clientID": "653941114751156236",
+  "owner": "632020134289997824",
+  "support": "524625000377090076",
+  "token": "NjUzOTQxMTE0NzUxMTU2MjM2.Xkxa1A.gLidW3sHNalQr-34lIka15RCsAA",
+  "musicEnabled": "true",
+  "mute": "true",
+  "bump": "false",
+  "embedColor": "#45EBFF",
+  "clientSecret": "653941114751156236",
+  "redirectURI": "http://firefoxbot1.glitch.me/login",
+  "port": "80"
+}
