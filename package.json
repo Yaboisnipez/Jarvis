@@ -10,7 +10,7 @@
     "start": "node bot.js"
   },
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "discord.js": "^11.5.1",
     "chalk": "^3.0.0",
     "moment": "^2.18.1",
